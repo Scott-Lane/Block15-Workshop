@@ -32,4 +32,10 @@ customer.toppings = ["chocolate sprinkles", "wafer straws", "gummy bears"];
 customer.futureFlavors = "mango";
 customer.todaysPurchaseCost = 5.32 
 
-console.log(customer);
+let keysArray = Object.keys(customer);
+
+//console.log(customer);
+for(let i=0; i < keysArray.length; i++) {
+    console.log(keysArray[i]);
+}
+//console.log(keysArray);
